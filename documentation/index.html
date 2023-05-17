@@ -1,0 +1,1569 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no"
+    />
+    <link href="assets/images/favicon.png" rel="icon" />
+    <title>Documentation | Simone - Personal Portfolio React Template</title>
+    <meta name="description" content="Documentation" />
+    <meta name="author" content="harnishdesign.net" />
+
+    <!-- Stylesheet
+============================== -->
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+    />
+    <!-- Font Awesome Icon -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/vendor/font-awesome/css/all.min.css"
+    />
+    <!-- Magnific Popup -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/vendor/magnific-popup/magnific-popup.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/vendor/highlight.js/styles/github.css"
+    />
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
+  </head>
+
+  <body data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="lds-ellipsis">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <!-- Preloader End -->
+
+    <!-- Document Wrapper   
+=============================== -->
+    <div id="main-wrapper">
+      <!-- Header
+  ============================ -->
+      <header id="header" class="sticky-top">
+        <!-- Navbar -->
+        <nav class="primary-menu navbar navbar-expand-lg navbar-dropdown-dark">
+          <div class="container-fluid">
+            <button
+              id="sidebarCollapse"
+              class="navbar-toggler d-block d-md-none"
+              type="button"
+            >
+              <span></span><span class="w-75"></span><span></span>
+            </button>
+            <!-- Logo -->
+            <a class="logo ml-md-3" href="index.html" title="Simone">
+              <img src="assets/images/logo.png" alt="Simone" />
+            </a>
+            <span class="text-2 ml-2">v1.1</span>
+            <!-- Logo End -->
+            <button
+              class="navbar-toggler ml-auto"
+              type="button"
+              data-toggle="collapse"
+              data-target="#header-nav"
+            >
+              <span></span><span></span><span></span>
+            </button>
+            <div
+              id="header-nav"
+              class="collapse navbar-collapse justify-content-end"
+            >
+              <ul class="navbar-nav">
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://themeforest.net/item/x/42757507/support"
+                    >Support</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <ul class="social-icons social-icons-sm ml-lg-2 mr-2">
+              <li class="social-icons-twitter">
+                <a
+                  data-toggle="tooltip"
+                  href="http://www.twitter.com/harnishdesign/"
+                  target="_blank"
+                  title=""
+                  data-original-title="Twitter"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </li>
+              <li class="social-icons-facebook">
+                <a
+                  data-toggle="tooltip"
+                  href="http://www.facebook.com/harnishdesign/"
+                  target="_blank"
+                  title=""
+                  data-original-title="Facebook"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+              </li>
+              <li class="social-icons-instagram">
+                <a
+                  data-toggle="tooltip"
+                  href="https://instagram.com/harnishdesign/"
+                  target="_blank"
+                  title=""
+                  data-original-title="Instagram"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+              <li class="social-icons-dribbble">
+                <a
+                  data-toggle="tooltip"
+                  href="http://www.dribbble.com/harnishdesign/"
+                  target="_blank"
+                  title=""
+                  data-original-title="Dribbble"
+                  ><i class="fab fa-dribbble"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- Navbar End -->
+      </header>
+      <!-- Header End -->
+
+      <!-- Content
+  ============================================= -->
+      <div id="content" role="main">
+        <div class="idocs-navigation bg-light">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="#start">Start</a>
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link" href="#installation">Installation</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#change_site_title"
+                >Basic Site Settings</a
+              >
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link" href="#change_site_title">Site Title</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#change_fevicon">Fevicon</a>
+                </li>
+				<li class="nav-item">
+                  <a class="nav-link" href="#logo_settings">Logo Settings</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#fonts">Changing Fonts</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#icons">Icons</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#color_schemes">Color Schemes</a>
+                </li>
+
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="#light_dark_theme"
+                    >Light or Dark Theme</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#sass">Sass</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#theme_customization"
+                    >Theme Customization</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#rtl">Setting up RTL</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#headerMenu">Header</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#components">Components</a>
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#resume">Resume</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#client">Client</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact_form">Contact</a>
+				  <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link" href="#contactForm">Contact Form</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contactDetails">Contact Details</a>
+                </li>
+				<li class="nav-item">
+                  <a class="nav-link" href="#socialMedia">Social Media</a>
+                </li>
+                
+              </ul>
+                </li>
+              </ul>
+            </li>
+			<li class="nav-item">
+                  <a class="nav-link" href="#helper_classes">Helper Classes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#source_credits">Source & Credits</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#theme_support">Support</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#changelog">Changelog</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Docs Content
+	============================ -->
+        <div class="idocs-content">
+          <div class="container">
+            <!-- Start -->
+            <section id="start">
+              <h1>Documentation</h1>
+              <h2 class="text-primary">
+                Simone - Personal Portfolio React Template
+              </h2>
+			  
+              <p class="lead">
+                Thank you for purchasing Simone - Personal Portfolio React
+                Template on ThemeForest.
+              </p>
+              <hr />
+
+              <ul class="list-unstyled">
+                <li><strong>Version:</strong> 1.1</li>
+                <li>
+                  <strong>Created by:</strong>
+                  <a href="http://www.harnishdesign.net" target="_blank"
+                    >Harnish Design</a
+                  >
+                </li>
+              </ul>
+              <p class="alert alert-info">
+                If you have any questions that are beyond the scope of this help
+                file, Please feel free to email via
+                <a
+                  target="_blank"
+                  href="https://themeforest.net/item/x/42757507/support"
+                  >Item Support Page</a
+                >.
+              </p>
+            </section>
+
+            <hr class="divider" />
+
+            <!-- Installation -->
+            <section id="installation">
+              <h2>Installation</h2>
+			  
+              <p>Follow the steps below to setup your site template:</p>
+              <ol>
+                <li>
+                  NodeJS works as a node package manager behind the scene. It is
+                  recommended to download and install the latest version of Node
+                  JS from its official site
+                  <a target="_blank" href="http://nodejs.org/"
+                    >http://nodejs.org/</a
+                  >
+				  <p>You'll need to install <span class="bg-warning px-1 text-dark mr-1">Node.js >=v17.0+ (Recommended Version)</span>(NPM comes along with it) and serve (a NPM package)</p>
+                </li>
+                <li>
+                  Let's see how the setup works:
+                  <ul>
+                    <li>Use terminal and navigate to the project root.</li>
+                    <li>Then run :<code>npm install</code></li>
+                    <li>Then run :<code>npm run start</code></li>
+                    <li>Now in the browser go <code>localhost:3000</code></li>
+                  </ul>
+                </li>
+
+                <li>You're now good to go..!</li>
+              </ol>
+            </section>
+
+            <hr class="divider" />
+            
+
+            <h2 id="change_site_title">Change Site Title</h2>
+            <p>To change your Site title open the template in your editor and go to the location by following screenshot which are given bellow.</p>
+			<p>From the template options go to <code>public</code> <code class="bg-transparent px-0">></code> <code>index.html</code></p>
+            <p>
+              <img
+                class="img-fluid"
+                src="./assets/images/screenshots/title.png"
+                alt=""
+              />
+            </p>
+            <hr class="divider" />
+
+            <h2 id="change_fevicon">Change Fevicon</h2>
+            <p>To change your Site Favicon by following screenshot<p/>
+            <p>From the template options go to <code>public</code></p>
+            <p>
+              <img
+                class="img-fluid"
+                src="./assets/images/screenshots/fevicon.png"
+                alt=""
+              />
+            </p>
+			
+			<hr class="divider" />
+            <!-- Logo -->
+            <section id="logo_settings">
+              <h2>Logo Settings</h2>
+              <p>
+                The Logo Container can be found in the Header component and
+                ClassicHeader component at
+                <code>src/components/Header.jsx</code> and
+                <code>src/components/ClassicHeader.jsx</code>
+              </p>
+			  	
+			  <p><img
+                src="./assets/images/screenshots/logo-sidebar-header.png"
+                alt=""
+              /></p>
+			  <p><img
+                src="./assets/images/screenshots/logo-classic-header.png"
+                alt=""
+              /></p>
+            </section>
+
+            <hr class="divider" />
+
+            <!-- Fonts -->
+            <section id="fonts">
+              <h2>Changing Fonts</h2>
+              <p>
+                Simone template use fonts: <strong>Poppins</strong> from the
+                <a href="https://fonts.google.com/">Google Fonts Library</a>.
+                You can change the fonts from page head in HTML files (as
+                following code).
+              </p>
+			  <p>From the template options go to <code>public</code> <code class="bg-transparent px-0">></code> <code>index.html</code></p>
+              <pre><code class="html">&lt;!-- Web Fonts
+============================================= --&gt;
+&lt;link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap' &gt;
+</code></pre>
+              <ul>
+                <li>
+                  In order to change the Fonts, you will need to Edit the Above
+                  Links with your Chosen Google Fonts.
+                </li>
+
+                <li>
+                  Then Replace the <code>body-font</code> variable value in the
+                  <code>src/sass/_variables.scss</code> File with your Newly
+                  Added Fonts.
+                </li>
+              </ul>
+              
+            </section>
+
+            <hr class="divider" />
+
+            <!-- Icons -->
+            <section id="icons">
+              <h2>Icons</h2>
+              <p>
+                <strong>Font Awesome</strong> icon sets are used in this
+                template.
+              </p>
+              <pre><code class="html">&lt;i class=&quot;fas fa-mobile-alt&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;fas fa-tv&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;fas fa-credit-card&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;fas fa-phone&quot;&gt;&lt;/i&gt;
+......</code></pre>
+              <p>
+                <span class="badge badge-danger text-uppercase mr-2">Note</span
+                >Please go to their official documentation pages for a full list
+                of icons:
+                <a
+                  class="btn btn-primary"
+                  target="_blank"
+                  href="https://fontawesome.com/icons"
+                  ><i class="fas fa-external-link-alt mr-1"></i> Font Awesome</a
+                >
+              </p>
+            </section>
+
+            <hr class="divider" />
+
+            <section id="color_schemes">
+              <h2>Color Schemes</h2>
+              <p>
+                You can change your Website's Color Scheme in an instant. We
+                have build <strong>10 Color</strong> css file for change
+                template primary color.
+              </p>
+              <ul>
+                <li><code>color-blue.scss</code> - Blue Color</li>
+                <li><code>color-brown.scss</code> - Brown Color</li>
+                <li><code>color-cyan.scss</code> - Cyan Color</li>
+                <li><code>color-green.scss</code> - Green Color</li>
+                <li><code>color-orange.scss</code> - Orange Color</li>
+                <li><code>color-indigo.scss</code> - Indigo Color</li>
+                <li><code>color-purple.scss</code> - Purple Color</li>
+                <li><code>color-red.scss</code> - Red Color</li>
+                <li><code>color-pink.scss</code> - Teal Color</li>
+                <li><code>color-yellow.scss</code> - Yellow Color</li>
+              </ul>
+              <p>
+                Simply import Color SCSS file it in the file
+                <code>src/index.js</code><br />
+                Make sure you import the color stylesheet
+                <code>sass/color-cyan.scss</code> after the
+                <code>sass/stylesheet.scss</code> default stylesheet linking
+                from above mentioned 10 color css file.
+              </p>
+              <p><strong>For Example:</strong></p>
+              <img src="./assets/images/screenshots/color-scheme.png" alt="" />
+            </section>
+
+            
+
+            <hr class="divider" />
+
+            <section id="light_dark_theme">
+              <h2>Light or Dark Theme</h2>
+              <p>
+                You can change dark or light theme from
+                <code>src/config/commonConfig.js</code> file.</p>
+                <p><code>darkTheme: false</code> will set light theme and
+                <code>darkTheme: true</code> will set dark theme.
+              </p>
+              <img src="./assets/images/screenshots/theme-config.png" alt="" />
+            </section>
+
+            <hr class="divider" />
+
+            <!-- Sass -->
+            <section id="sass">
+              <h2>Sass</h2>
+              <p>
+                We have added SASS <code>.scss</code> files in template. If you
+                know how to use SASS you can change sass files and compile the
+                css as well. You can find sass file here -
+                <code>src/sass</code>
+              </p>
+              <p>
+                Open the <code>src/sass/_variables.scss</code> and Edit the
+                values according to your needs. If you need more Advanced Setup
+                then you can Edit the Respective Files yourself which have been
+                branched inside the same Folder. It is completely at your
+                discretion only to include the Required <code>.scss</code> Files
+                you need to minimize the amount of CSS & including only the
+                Styles of the Blocks you need. This can be setup in your
+                <code>stylesheet.scss</code> File.
+              </p>
+            </section>
+
+            <hr class="divider" />
+
+            <section id="theme_customization">
+              <h2>Theme Customization</h2>
+              <p>
+                We have include a Custom CSS File so that you can better handle your Customizations for New Styles
+                or Overwriting Default Theme Styles. Simply add all your Custom
+                CSS Codes in the <code>src/app.scss</code> file.
+              </p>
+            </section>
+
+            <hr class="divider" />
+
+            <!-- RTL -->
+            <section id="rtl">
+              <h2>Setting up RTL</h2>
+              <p>
+                We have included all the Tools to make your Website completely
+                <strong>RTL</strong> ready. Simply follow the steps below:
+              </p>
+              <h3 class="mt-5">Code Example:</h3>
+              <ul>
+                <li>
+                  <h4 class="mb-0">Step 1</h4>
+                  <p>
+                    Add the <code>dir="rtl"</code> to the
+                    <code>&lt;html&gt;</code> element at
+                    <code>public/index.html</code> file.<br />
+                    Add an appropriate lang attribute, like
+                    <code>lang="ar"</code>, on the
+                    <code>&lt;html&gt;</code> element.
+                  </p>
+                  <p class="mb-2"><strong>Example:</strong></p>
+                  <img
+                    src="./assets/images/screenshots/rtl-public-html.png"
+                    alt=""
+                  />
+                  <pre><code class="html">&lt;html dir=&quot;rtl&quot; lang=&quot;ar&quot;&gt;</code></pre>
+                </li>
+                <li>
+                  <h4 class="mb-0">Step 2</h4>
+                  <p>
+                    From <code>src/index.js</code>, you’ll need to apply an RTL
+                    version of Bootstrap CSS instead of default bootstrap
+                    css.<br />
+                    <strong>For that :</strong><br />
+                    comment out
+                    <code>import "bootstrap/dist/css/bootstrap.min.css"; </code
+                    ><br />
+                    and uncomment
+                    <code
+                      >// import
+                      "bootstrap/dist/css/bootstrap.rtl.min.css";</code
+                    >
+                  </p>
+                  <p class="mb-2"><strong>Example:</strong></p>
+                  <img
+                    src="./assets/images/screenshots/rtl-bootstrap.png"
+                    alt=""
+                  />
+                </li>
+              </ul>
+            </section>
+
+            <hr class="divider" />
+
+            <!-- Header -->
+            <section id="headerMenu">
+              <h2>Header</h2>
+              <p>Two different style for Header. Its descriptions are provided below for your reference:</p>
+            </section>
+            <section id="set_header">
+              <h3>Classic Header or Sidebar Header</h3>
+              <p>
+                You can set header as a classic header or sidebar header from
+                <code>src/config/commonConfig.js</code> file.
+              </p>
+			  <ul>
+			  <li><code>classicHeader: false</code> will apply Side Header Styles. and</li>
+              <li><code>classicHeader: true</code> will apply Classic Header Styles.</li>
+			  </ul>
+			  
+              <img src="./assets/images/screenshots/header-menu-config.png" alt="" />
+            </section>
+            
+
+            <hr class="divider" />
+
+            <h2 id="components">Components Info</h2>
+
+            <!-- home -->
+            <section id="home">
+              <h2 class="pt-5">Home</h2>
+              <p>
+                You can change and edit your typing Animation texts by editing
+                <strong>strings</strong> array in
+                <strong>Typewriter</strong> component.
+                <a href="https://www.npmjs.com/package/typewriter-effect"
+                  >Click here</a
+                >
+                for Documentation of <code>typewriter-effect</code> npm package.
+              </p>
+              <p>
+                <img
+                  src="./assets/images/screenshots/typing-data.png"
+                  alt=""
+                />
+              </p>
+
+              <h4>Image or Video background (Hero Section)</h4>
+              <p>
+                You can set image background or video background in hero
+                section. for that apply one of them and comment out another one.
+                replace image or video files with your ones to change image or
+                video file.
+              </p>
+              <img src="./assets/images/screenshots/home-bg.png" alt="" />
+            </section>
+            <hr class="divider" />
+
+            <!-- about -->
+            <section id="about">
+              <h2>About us</h2>
+              <p>You can your content details from file <code>src/components/About.jsx</code>.</p>
+			  <p><img src="./assets/images/screenshots/about.png" alt="" /></p>
+				<p>and Replace your
+                resume file at <code>src/documents/resume.pdf</code>. so it will
+                download your resume on clicking on
+                <strong>Download CV</strong> button.
+              </p>
+              <img src="./assets/images/screenshots/resume-file.png" alt="" />
+            </section>
+
+            <hr class="divider" />
+            <!-- services -->
+            <section id="services">
+              <h2>Services</h2>
+              <p>
+                You can change your services data from file
+                <code>src/components/Services.jsx</code>
+              </p>
+              <img
+                src="./assets/images/screenshots/services-data.png"
+                alt=""
+              />
+            </section>
+
+            <hr class="divider" />
+            <!-- resume -->
+            <section id="resume">
+              <h2>Resume</h2>
+              <p>
+                You can change your <span class="font-weight-600">Education</span>, <span class="font-weight-600">Experience</span> and <span class="font-weight-600">Skills</span> data from
+                file
+                <code>src/components/Resume.jsx</code>
+              </p>
+              <img
+                src="./assets/images/screenshots/resume-education.png"
+                alt=""
+              />
+              
+            </section>
+
+            <hr class="divider" />
+
+            <!-- portfolio -->
+            <section id="portfolio">
+              <h2>Portfolio Setup</h2>
+              <p>
+                We provides a very elegant way to showcase your work. Setting up
+                Portfolio is simple. Please use the following codes:
+              </p>
+              <h5>Setting up Portfolio Filter:</h5>
+              <img
+                src="./assets/images/screenshots/portfilio-filter-menu.png"
+                alt=""
+              />
+              <h5 class="mt-5">Setting up Portfolio Items:</h5>
+              <p>
+                You can change portfolio columns by changing class of
+                <a
+                  target="_blank"
+                  href="https://getbootstrap.com/docs/5.2/layout/grid/"
+                  >Bootstrap grid column system</a
+                >
+                as per the columns you need. also, You can add and change
+                Potfolio data by adding or changing
+                <code>projectsData</code> array. Below is the screenshot for
+                your reference:
+              </p>
+              <p><img
+                src="./assets/images/screenshots/portfolio-project-details.png"
+                alt=""
+              /></p>
+
+              <div class="alert alert-info">
+                The codes for the Modal of Project Details can be found in the
+                <code>ProjectDetailsModal</code> component. path
+                <code>src/components/ProjectDetailsModal.jsx</code>
+              </div>
+            </section>
+
+            <hr class="divider" />
+            <!-- client -->
+            <section id="client">
+              <h2>Client</h2>
+              <p>
+                You can change your Clients data from file
+                <code>src/components/Testimonials.jsx</code>
+              </p>
+              <p><img
+                src="./assets/images/screenshots/client-reviews.png"
+                alt=""
+              /></p>
+              <p>
+                Here we have used
+                <a href="https://www.npmjs.com/package/react-slick"
+                  >React Slick Slider</a
+                >. You can change slider configurations by changing
+                <strong>settings</strong> object.
+              </p>
+              <img
+                src="./assets/images/screenshots/slick-slider-config.png"
+                alt=""
+              />
+            </section>
+
+            <hr class="divider" />
+
+            <!-- contact -->
+
+            <section id="contact_form">
+              <h2>Contact</h2>
+			  
+			  <h4 id="contactForm">Contact Form</h4>
+              <p>
+                Send email from React without backend (
+                <a target="_blank" href="https://www.emailjs.com/docs/examples/reactjs/"
+                  >Email js Official Website</a
+                >
+                ) and follow bellow screenshot here and also follow this video (
+                <a target="_blank" href="https://youtu.be/t1_kviNJsy4">Youtube</a> ). you can
+                find file at <code>src/components/Contact.jsx</code>
+              </p>
+              <p><img src="./assets/images/screenshots/contact-form.png" alt="" /></p>
+              
+			  <h4 id="contactDetails" class="mt-5 mb-2">Contact Details</h4>
+			  <p>
+                You can change your contact detials info by
+                changing this detials.
+              </p>
+              <p><img
+                src="./assets/images/screenshots/contact-details.png"
+                alt=""
+              /></p>
+			  
+			  <h4 id="socialMedia" class="mt-5 mb-2">Social Media</h4>
+			  <p>You can change your social media info by changing this detials.</p>
+              <p><img
+                src="./assets/images/screenshots/contact-social.png"
+                alt=""
+              />
+			  </p>
+			  <p>You can find below social icon code. Click on tab and copy below code & paste in <code>Contact.jsx</code> file which you want.</p>
+			  <ul class="nav nav-pills" id="myTab" role="tablist">
+              <li class="nav-item"> <a class="nav-link active" id="one-tab" data-toggle="tab" href="#one" role="tab" aria-controls="one" aria-selected="true"><i class="fab fa-twitter" /></i></a> </li>
+              <li class="nav-item"> <a class="nav-link" id="two-tab" data-toggle="tab" href="#two" role="tab" aria-controls="two" aria-selected="false"><i class="fab fa-facebook-f" /></i></a> </li>
+              <li class="nav-item"> <a class="nav-link" id="three-tab" data-toggle="tab" href="#three" role="tab" aria-controls="three" aria-selected="false"><i class="fab fa-google" /></i></a> </li>
+			  <li class="nav-item"> <a class="nav-link" id="four-tab" data-toggle="tab" href="#four" role="tab" aria-controls="four" aria-selected="false"><i class="fab fa-github" /></i></a> </li>
+			  <li class="nav-item"> <a class="nav-link" id="five-tab" data-toggle="tab" href="#five" role="tab" aria-controls="five" aria-selected="false"><i class="fab fa-dribbble" /></i></a> </li>
+			  <li class="nav-item"> <a class="nav-link" id="six-tab" data-toggle="tab" href="#six" role="tab" aria-controls="six" aria-selected="false"><i class="fab fa-linkedin" /></i></a> </li>
+			  <li class="nav-item"> <a class="nav-link" id="seven-tab" data-toggle="tab" href="#seven" role="tab" aria-controls="seven" aria-selected="false"><i class="fab fa-youtube" /></i></a> </li>
+			  <li class="nav-item"> <a class="nav-link" id="eight-tab" data-toggle="tab" href="#eight" role="tab" aria-controls="eight" aria-selected="false"><i class="fab fa-instagram" /></i></a> </li>
+			  <li class="nav-item"> <a class="nav-link" id="nine-tab" data-toggle="tab" href="#nine" role="tab" aria-controls="nine" aria-selected="false"><i class="fab fa-behance" /></i></a> </li>
+			  <li class="nav-item"> <a class="nav-link" id="ten-tab" data-toggle="tab" href="#ten" role="tab" aria-controls="ten" aria-selected="false"><i class="fab fa-reddit" /></i></a> </li>
+			  <li class="nav-item"> <a class="nav-link" id="eleven-tab" data-toggle="tab" href="#eleven" role="tab" aria-controls="eleven" aria-selected="false"><i class="fab fa-vk" /></i></a> </li>
+			  
+			  <li class="nav-item"> <a class="nav-link" id="thirty-tab" data-toggle="tab" href="#thirteen" role="tab" aria-controls="thirteen" aria-selected="false"><i class="fab fa-skype" /></i></a> </li>
+			  <li class="nav-item"> <a class="nav-link" id="forteen-tab" data-toggle="tab" href="#forteen" role="tab" aria-controls="forteen" aria-selected="false"><i class="fab fa-xing" /></i></a> </li>
+			  <li class="nav-item"> <a class="nav-link" id="fifteen-tab" data-toggle="tab" href="#fifteen" role="tab" aria-controls="fifteen" aria-selected="false"><i class="fab fa-tumblr" /></i></a> </li>
+			  
+			  <li class="nav-item"> <a class="nav-link" id="senveteen-tab" data-toggle="tab" href="#senveteen" role="tab" aria-controls="senveteen" aria-selected="false"><i class="fab fa-delicious" /></i></a> </li>
+			  <li class="nav-item"> <a class="nav-link" id="eighteen-tab" data-toggle="tab" href="#eighteen" role="tab" aria-controls="eighteen" aria-selected="false"><i class="fab fa-stumbleupon" /></i></a> </li>
+			  <li class="nav-item"> <a class="nav-link" id="nineteen-tab" data-toggle="tab" href="#nineteen" role="tab" aria-controls="nineteen" aria-selected="false"><i class="fab fa-digg" /></i></a> </li>
+			  <li class="nav-item"> <a class="nav-link" id="twenteen-tab" data-toggle="tab" href="#twenteen" role="tab" aria-controls="twenteen" aria-selected="false"><i class="fab fa-blogger-b" /></i></a> </li>
+			  <li class="nav-item"> <a class="nav-link" id="twenteen-one-tab" data-toggle="tab" href="#twenteen-one" role="tab" aria-controls="twenteen-one" aria-selected="false"><i class="fab fa-flickr" /></i></a> </li>
+			  <li class="nav-item"> <a class="nav-link" id="twenteen-two-tab" data-toggle="tab" href="#twenteen-two" role="tab" aria-controls="twenteen-two" aria-selected="false"><i class="fab fa-vimeo-v" /></i></a> </li>
+			  <li class="nav-item"> <a class="nav-link" id="twenteen-three-tab" data-toggle="tab" href="#twenteen-three" role="tab" aria-controls="twenteen-three" aria-selected="false"><i class="fab fa-yahoo" /></i></a> </li>
+			  <li class="nav-item"> <a class="nav-link" id="twenteen-four-tab" data-toggle="tab" href="#twenteen-four" role="tab" aria-controls="twenteen-four" aria-selected="false"><i class="fab fa-google-play" /></i></a> </li>
+			  <li class="nav-item"> <a class="nav-link" id="twenteen-five-tab" data-toggle="tab" href="#twenteen-five" role="tab" aria-controls="twenteen-five" aria-selected="false"><i class="fab fa-apple" /></i></a> </li>
+            </ul>
+            <div class="tab-content my-3" id="myTabContent">
+              <div class="tab-pane fade show active" id="one" role="tabpanel" aria-labelledby="one-tab">
+                <pre><code class="html">&lt;li className=&quot;social-icons-twitter&quot;&gt;
+	&lt;Tooltip text=&quot;Twitter&quot; placement=&quot;top&quot;&gt;
+	  &lt;a
+		href=&quot;https://twitter.com/&quot;
+		target=&quot;_blank&quot;
+		rel=&quot;noopener noreferrer&quot;
+	  &gt;
+		&lt;i className=&quot;fab fa-twitter&quot; /&gt;
+	  &lt;/a&gt;
+	&lt;/Tooltip&gt;
+&lt;/li&gt;
+</pre></code>
+              </div>
+              <div class="tab-pane fade" id="two" role="tabpanel" aria-labelledby="two-tab">
+                <pre><code class="html">&lt;li className=&quot;social-icons-facebook&quot;&gt;
+	&lt;Tooltip text=&quot;Facebook&quot; placement=&quot;top&quot;&gt;
+	  &lt;a
+		href=&quot;http://www.facebook.com/&quot;
+		target=&quot;_blank&quot;
+		rel=&quot;noopener noreferrer&quot;
+	  &gt;
+		&lt;i className=&quot;fab fa-facebook-f&quot; /&gt;
+	  &lt;/a&gt;
+	&lt;/Tooltip&gt;
+&lt;/li&gt;
+</pre></code>
+              </div>
+              <div class="tab-pane fade" id="three" role="tabpanel" aria-labelledby="three-tab">
+                <pre><code class="html">&lt;li className=&quot;social-icons-google&quot;&gt;
+	&lt;Tooltip text=&quot;Google&quot; placement=&quot;top&quot;&gt;
+	  &lt;a
+		href=&quot;http://www.google.com/&quot;
+		target=&quot;_blank&quot;
+		rel=&quot;noopener noreferrer&quot;
+	  &gt;
+		&lt;i className=&quot;fab fa-google&quot; /&gt;
+	  &lt;/a&gt;
+	&lt;/Tooltip&gt;
+&lt;/li&gt;
+</pre></code>
+              </div>
+			  <div class="tab-pane fade" id="four" role="tabpanel" aria-labelledby="four-tab">
+                <pre><code class="html">&lt;li className=&quot;social-icons-github&quot;&gt;
+	&lt;Tooltip text=&quot;Github&quot; placement=&quot;top&quot;&gt;
+	  &lt;a
+		href=&quot;http://www.github.com/&quot;
+		target=&quot;_blank&quot;
+		rel=&quot;noopener noreferrer&quot;
+	  &gt;
+		&lt;i className=&quot;fab fa-github&quot; /&gt;
+	  &lt;/a&gt;
+	&lt;/Tooltip&gt;
+&lt;/li&gt;
+</pre></code>
+              </div>
+			  <div class="tab-pane fade" id="five" role="tabpanel" aria-labelledby="five-tab">
+                <pre><code class="html">&lt;li className=&quot;social-icons-dribbble&quot;&gt;
+	&lt;Tooltip text=&quot;Dribbble&quot; placement=&quot;top&quot;&gt;
+	  &lt;a
+		href=&quot;http://www.dribbble.com/&quot;
+		target=&quot;_blank&quot;
+		rel=&quot;noopener noreferrer&quot;
+	  &gt;
+		&lt;i className=&quot;fab fa-dribbble&quot; /&gt;
+	  &lt;/a&gt;
+	&lt;/Tooltip&gt;
+&lt;/li&gt;
+</pre></code>
+              </div>
+			  <div class="tab-pane fade" id="six" role="tabpanel" aria-labelledby="six-tab">
+                <pre><code class="html">&lt;li className=&quot;social-icons-linkedin&quot;&gt;
+	&lt;Tooltip text=&quot;Linkedin&quot; placement=&quot;top&quot;&gt;
+	  &lt;a
+		href=&quot;http://www.linkedin.com/&quot;
+		target=&quot;_blank&quot;
+		rel=&quot;noopener noreferrer&quot;
+	  &gt;
+		&lt;i className=&quot;fab fa-linkedin-in&quot; /&gt;
+	  &lt;/a&gt;
+	&lt;/Tooltip&gt;
+&lt;/li&gt;
+</pre></code>
+              </div>
+			  <div class="tab-pane fade" id="seven" role="tabpanel" aria-labelledby="seven-tab">
+                <pre><code class="html">&lt;li className=&quot;social-icons-youtube&quot;&gt;
+	&lt;Tooltip text=&quot;Youtube&quot; placement=&quot;top&quot;&gt;
+	  &lt;a
+		href=&quot;http://www.youtube.com/&quot;
+		target=&quot;_blank&quot;
+		rel=&quot;noopener noreferrer&quot;
+	  &gt;
+		&lt;i className=&quot;fab fa-youtube&quot; /&gt;
+	  &lt;/a&gt;
+	&lt;/Tooltip&gt;
+&lt;/li&gt;
+</pre></code>
+              </div>
+			  <div class="tab-pane fade" id="eight" role="tabpanel" aria-labelledby="eight-tab">
+                <pre><code class="html">&lt;li className=&quot;social-icons-instagram&quot;&gt;
+	&lt;Tooltip text=&quot;Instagram&quot; placement=&quot;top&quot;&gt;
+	  &lt;a
+		href=&quot;http://www.instagram.com/&quot;
+		target=&quot;_blank&quot;
+		rel=&quot;noopener noreferrer&quot;
+	  &gt;
+		&lt;i className=&quot;fab fa-instagram&quot; /&gt;
+	  &lt;/a&gt;
+	&lt;/Tooltip&gt;
+&lt;/li&gt;
+</pre></code>
+              </div>
+			  <div class="tab-pane fade" id="nine" role="tabpanel" aria-labelledby="nine-tab">
+                <pre><code class="html">&lt;li className=&quot;social-icons-behance&quot;&gt;
+	&lt;Tooltip text=&quot;Behance&quot; placement=&quot;top&quot;&gt;
+	  &lt;a
+		href=&quot;http://www.behance.com/&quot;
+		target=&quot;_blank&quot;
+		rel=&quot;noopener noreferrer&quot;
+	  &gt;
+		&lt;i className=&quot;fab fa-behance&quot; /&gt;
+	  &lt;/a&gt;
+	&lt;/Tooltip&gt;
+&lt;/li&gt;
+</pre></code>
+              </div>
+			  <div class="tab-pane fade" id="ten" role="tabpanel" aria-labelledby="ten-tab">
+                <pre><code class="html">&lt;li className=&quot;social-icons-reddit&quot;&gt;
+	&lt;Tooltip text=&quot;reddit&quot; placement=&quot;top&quot;&gt;
+	  &lt;a
+		href=&quot;http://www.reddit.com/&quot;
+		target=&quot;_blank&quot;
+		rel=&quot;noopener noreferrer&quot;
+	  &gt;
+		&lt;i className=&quot;fab fa-reddit&quot; /&gt;
+	  &lt;/a&gt;
+	&lt;/Tooltip&gt;
+&lt;/li&gt;
+</pre></code>
+              </div>
+			  <div class="tab-pane fade" id="eleven" role="tabpanel" aria-labelledby="eleven-tab">
+                <pre><code class="html">&lt;li className=&quot;social-icons-vk&quot;&gt;
+	&lt;Tooltip text=&quot;vk&quot; placement=&quot;top&quot;&gt;
+	  &lt;a
+		href=&quot;http://www.vk.com/&quot;
+		target=&quot;_blank&quot;
+		rel=&quot;noopener noreferrer&quot;
+	  &gt;
+		&lt;i className=&quot;fab fa-vk&quot; /&gt;
+	  &lt;/a&gt;
+	&lt;/Tooltip&gt;
+&lt;/li&gt;
+</pre></code>
+              </div>
+			  
+			  <div class="tab-pane fade" id="thirty" role="tabpanel" aria-labelledby="thirty-tab">
+                <pre><code class="html">&lt;li className=&quot;social-icons-skype&quot;&gt;
+	&lt;Tooltip text=&quot;skype&quot; placement=&quot;top&quot;&gt;
+	  &lt;a
+		href=&quot;http://www.skype.com/&quot;
+		target=&quot;_blank&quot;
+		rel=&quot;noopener noreferrer&quot;
+	  &gt;
+		&lt;i className=&quot;fab fa-skype&quot; /&gt;
+	  &lt;/a&gt;
+	&lt;/Tooltip&gt;
+&lt;/li&gt;
+</pre></code>
+              </div>
+			  <div class="tab-pane fade" id="forteen" role="tabpanel" aria-labelledby="forteen-tab">
+                <pre><code class="html">&lt;li className=&quot;social-icons-xing&quot;&gt;
+	&lt;Tooltip text=&quot;xing&quot; placement=&quot;top&quot;&gt;
+	  &lt;a
+		href=&quot;http://www.xing.com/&quot;
+		target=&quot;_blank&quot;
+		rel=&quot;noopener noreferrer&quot;
+	  &gt;
+		&lt;i className=&quot;fab fa-xing&quot; /&gt;
+	  &lt;/a&gt;
+	&lt;/Tooltip&gt;
+&lt;/li&gt;
+</pre></code>
+              </div>
+			  <div class="tab-pane fade" id="fifteen" role="tabpanel" aria-labelledby="fifteen-tab">
+                <pre><code class="html">&lt;li className=&quot;social-icons-tumblr&quot;&gt;
+	&lt;Tooltip text=&quot;tumblr&quot; placement=&quot;top&quot;&gt;
+	  &lt;a
+		href=&quot;http://www.tumblr.com/&quot;
+		target=&quot;_blank&quot;
+		rel=&quot;noopener noreferrer&quot;
+	  &gt;
+		&lt;i className=&quot;fab fa-tumblr&quot; /&gt;
+	  &lt;/a&gt;
+	&lt;/Tooltip&gt;
+&lt;/li&gt;
+</pre></code>
+              </div>
+			  
+			  <div class="tab-pane fade" id="senveteen" role="tabpanel" aria-labelledby="senveteen-tab">
+                <pre><code class="html">&lt;li className=&quot;social-icons-delicious&quot;&gt;
+	&lt;Tooltip text=&quot;Delicious&quot; placement=&quot;top&quot;&gt;
+	  &lt;a
+		href=&quot;http://www.delicious.com/&quot;
+		target=&quot;_blank&quot;
+		rel=&quot;noopener noreferrer&quot;
+	  &gt;
+		&lt;i className=&quot;fab fa-delicious&quot; /&gt;
+	  &lt;/a&gt;
+	&lt;/Tooltip&gt;
+&lt;/li&gt;
+</pre></code>
+              </div>
+			  <div class="tab-pane fade" id="eighteen" role="tabpanel" aria-labelledby="eighteen-tab">
+                <pre><code class="html">&lt;li className=&quot;social-icons-stumbleupon&quot;&gt;
+	&lt;Tooltip text=&quot;Stumbleupon&quot; placement=&quot;top&quot;&gt;
+	  &lt;a
+		href=&quot;http://www.stumbleupon.com/&quot;
+		target=&quot;_blank&quot;
+		rel=&quot;noopener noreferrer&quot;
+	  &gt;
+		&lt;i className=&quot;fab fa-stumbleupon&quot; /&gt;
+	  &lt;/a&gt;
+	&lt;/Tooltip&gt;
+&lt;/li&gt;
+</pre></code>
+              </div>
+			  <div class="tab-pane fade" id="nineteen" role="tabpanel" aria-labelledby="nineteen-tab">
+                <pre><code class="html">&lt;li className=&quot;social-icons-digg&quot;&gt;
+	&lt;Tooltip text=&quot;Digg&quot; placement=&quot;top&quot;&gt;
+	  &lt;a
+		href=&quot;http://www.digg.com/&quot;
+		target=&quot;_blank&quot;
+		rel=&quot;noopener noreferrer&quot;
+	  &gt;
+		&lt;i className=&quot;fab fa-digg&quot; /&gt;
+	  &lt;/a&gt;
+	&lt;/Tooltip&gt;
+&lt;/li&gt;
+</pre></code>
+              </div>
+			  <div class="tab-pane fade" id="twenteen" role="tabpanel" aria-labelledby="twenteen-tab">
+                <pre><code class="html">&lt;li className=&quot;social-icons-blogger&quot;&gt;
+	&lt;Tooltip text=&quot;Blogger&quot; placement=&quot;top&quot;&gt;
+	  &lt;a
+		href=&quot;http://www.blogger.com/&quot;
+		target=&quot;_blank&quot;
+		rel=&quot;noopener noreferrer&quot;
+	  &gt;
+		&lt;i className=&quot;fab fa-blogger-b&quot; /&gt;
+	  &lt;/a&gt;
+	&lt;/Tooltip&gt;
+&lt;/li&gt;
+</pre></code>
+              </div>
+			  <div class="tab-pane fade" id="twenteen-one" role="tabpanel" aria-labelledby="twenteen-one-tab">
+                <pre><code class="html">&lt;li className=&quot;social-icons-flickr&quot;&gt;
+	&lt;Tooltip text=&quot;flickr&quot; placement=&quot;top&quot;&gt;
+	  &lt;a
+		href=&quot;http://www.flickr.com/&quot;
+		target=&quot;_blank&quot;
+		rel=&quot;noopener noreferrer&quot;
+	  &gt;
+		&lt;i className=&quot;fab fa-flickr&quot; /&gt;
+	  &lt;/a&gt;
+	&lt;/Tooltip&gt;
+&lt;/li&gt;
+</pre></code>
+              </div>
+			  <div class="tab-pane fade" id="twenteen-two" role="tabpanel" aria-labelledby="twenteen-two-tab">
+                <pre><code class="html">&lt;li className=&quot;social-icons-vimeo&quot;&gt;
+	&lt;Tooltip text=&quot;vimeo&quot; placement=&quot;top&quot;&gt;
+	  &lt;a
+		href=&quot;http://www.vimeo.com/&quot;
+		target=&quot;_blank&quot;
+		rel=&quot;noopener noreferrer&quot;
+	  &gt;
+		&lt;i className=&quot;fab fa-vimeo-v&quot; /&gt;
+	  &lt;/a&gt;
+	&lt;/Tooltip&gt;
+&lt;/li&gt;
+</pre></code>
+              </div>
+			  <div class="tab-pane fade" id="twenteen-three" role="tabpanel" aria-labelledby="twenteen-three-tab">
+                <pre><code class="html">&lt;li className=&quot;social-icons-yahoo&quot;&gt;
+	&lt;Tooltip text=&quot;yahoo&quot; placement=&quot;top&quot;&gt;
+	  &lt;a
+		href=&quot;http://www.yahoo.com/&quot;
+		target=&quot;_blank&quot;
+		rel=&quot;noopener noreferrer&quot;
+	  &gt;
+		&lt;i className=&quot;fab fa-yahoo&quot; /&gt;
+	  &lt;/a&gt;
+	&lt;/Tooltip&gt;
+&lt;/li&gt;
+</pre></code>
+              </div>
+			  <div class="tab-pane fade" id="twenteen-four" role="tabpanel" aria-labelledby="twenteen-four-tab">
+                <pre><code class="html">&lt;li className=&quot;social-icons-yahoo&quot;&gt;
+	&lt;Tooltip text=&quot;Google Play&quot; placement=&quot;top&quot;&gt;
+	  &lt;a
+		href=&quot;http://www.google.com/&quot;
+		target=&quot;_blank&quot;
+		rel=&quot;noopener noreferrer&quot;
+	  &gt;
+		&lt;i className=&quot;fab fa-google-play&quot; /&gt;
+	  &lt;/a&gt;
+	&lt;/Tooltip&gt;
+&lt;/li&gt;
+</pre></code>
+              </div>
+			  <div class="tab-pane fade" id="twenteen-five" role="tabpanel" aria-labelledby="twenteen-five-tab">
+                <pre><code class="html">&lt;li className=&quot;social-icons-apple&quot;&gt;
+	&lt;Tooltip text=&quot;Apple Play&quot; placement=&quot;top&quot;&gt;
+	  &lt;a
+		href=&quot;http://www.apple.com/&quot;
+		target=&quot;_blank&quot;
+		rel=&quot;noopener noreferrer&quot;
+	  &gt;
+		&lt;i className=&quot;fab fa-apple&quot; /&gt;
+	  &lt;/a&gt;
+	&lt;/Tooltip&gt;
+&lt;/li&gt;
+</pre></code>
+              </div>
+            </div>
+			  
+            </section>
+
+            <hr class="divider" />
+ <div id="helper_classes">
+                <h3>Helper Classes</h3>
+                <p class="mb-5">
+                  We have created some really useful helper classes for you.
+                  Here are a few of them. also, You can refer other default
+                  bootstrap helper classes here:
+                  <a
+                    class="ml-1"
+                    target="_blank"
+                    href="https://getbootstrap.com/docs/5.2/utilities/"
+                    ><i class="fas fa-external-link-alt"></i> Bootstrap
+                    Documentation</a
+                  >
+                </p>
+                <h5>Text Size:</h5>
+                <ul>
+                  <li><code>.text-0</code> - Changes the Font size to 11px.</li>
+                  <li><code>.text-1</code> - Changes the Font size to 12px.</li>
+                  <li><code>.text-2</code> - Changes the Font size to 14px.</li>
+                  <li><code>.text-3</code> - Changes the Font size to 16px.</li>
+                  <li><code>.text-4</code> - Changes the Font size to 18px.</li>
+                  <li><code>.text-5</code> - Changes the Font size to 21px.</li>
+                  <li><code>.text-6</code> - Changes the Font size to 24px.</li>
+                  <li><code>.text-7</code> - Changes the Font size to 28px.</li>
+                  <li><code>.text-8</code> - Changes the Font size to 32px.</li>
+                  <li><code>.text-9</code> - Changes the Font size to 36px.</li>
+                  <li>
+                    <code>.text-10</code> - Changes the Font size to 40px.
+                  </li>
+                  <li>
+                    <code>.text-11</code> - Changes the Font size to 44px.
+                  </li>
+                  <li>
+                    <code>.text-12</code> - Changes the Font size to 48px.
+                  </li>
+                  <li>
+                    <code>.text-13</code> - Changes the Font size to 52px.
+                  </li>
+                  <li>
+                    <code>.text-14</code> - Changes the Font size to 56px.
+                  </li>
+                  <li>
+                    <code>.text-15</code> - Changes the Font size to 60px.
+                  </li>
+                  <li>
+                    <code>.text-16</code> - Changes the Font size to 64px.
+                  </li>
+                  <li>
+                    <code>.text-17</code> - Changes the Font size to 72px.
+                  </li>
+                  <li>
+                    <code>.text-18</code> - Changes the Font size to 80px.
+                  </li>
+                  <li>
+                    <code>.text-19</code> - Changes the Font size to 84px.
+                  </li>
+                  <li>
+                    <code>.text-20</code> - Changes the Font size to 92px.
+                  </li>
+                  <li>
+                    <code>.text-21</code> - Changes the Font size to 104px.
+                  </li>
+                  <li>
+                    <code>.text-22</code> - Changes the Font size to 112px.
+                  </li>
+                  <li>
+                    <code>.text-23</code> - Changes the Font size to 124px.
+                  </li>
+                  <li>
+                    <code>.text-24</code> - Changes the Font size to 132px.
+                  </li>
+                  <li>
+                    <code>.text-25</code> - Changes the Font size to 144px.
+                  </li>
+                </ul>
+                <h5>Font Weight:</h5>
+                <ul>
+                  <li><code>.fw-100</code> - For font weight of 100.</li>
+                  <li><code>.fw-200</code> - For font weight of 200.</li>
+                  <li><code>.fw-300</code> - For font weight of 300.</li>
+                  <li><code>.fw-400</code> - For font weight of 400.</li>
+                  <li><code>.fw-500</code> - For font weight of 500.</li>
+                  <li><code>.fw-600</code> - For font weight of 600.</li>
+                  <li><code>.fw-700</code> - For font weight of 700.</li>
+                  <li><code>.fw-800</code> - For font weight of 800.</li>
+                  <li><code>.fw-900</code> - For font weight of 900.</li>
+                </ul>
+                <h5>Background Color:</h5>
+                <ul>
+                  <li>
+                    <code>.bg-transparent</code> - For background color of
+                    transparent
+                  </li>
+                  <li>
+                    <code>.bg-light</code> - For background color of light gray
+                  </li>
+                  <li>
+                    <code>.bg-light-1</code> - For background color of more
+                    light gray
+                  </li>
+                  <li>
+                    <code>.bg-light-2</code> - For background color of more
+                    light gray
+                  </li>
+                  <li>
+                    <code>.bg-light-3</code> - For background color of more
+                    light gray
+                  </li>
+                  <li>
+                    <code>.bg-light-4</code> - For background color of more
+                    light gray
+                  </li>
+                  <li><code>.bg-dark</code> - For background color of dark</li>
+                  <li>
+                    <code>.bg-dark-1</code> - For background color of dark gray
+                  </li>
+                  <li>
+                    <code>.bg-dark-2</code> - For background color of more dark
+                    gray
+                  </li>
+                  <li>
+                    <code>.bg-dark-3</code> - For background color of more dark
+                    gray
+                  </li>
+                  <li>
+                    <code>.bg-dark-4</code> - For background color of more dark
+                    gray
+                  </li>
+                </ul>
+                <h5>Box Shadow</h5>
+                <ul>
+                  <li>
+                    <code>.shadow-none</code> - For No shadow to elements with
+                    box-shadow utilities.
+                  </li>
+                  <li>
+                    <code>.shadow-sm</code> - For Small shadow to elements with
+                    box-shadow utilities.
+                  </li>
+                  <li>
+                    <code>.shadow</code> - For Regular shadow to elements with
+                    box-shadow utilities.
+                  </li>
+                  <li>
+                    <code>.shadow-md</code> - For medium light shadows to
+                    elements with box-shadow utilities.
+                  </li>
+                  <li>
+                    <code>.shadow-lg</code> - For Larger shadows to elements
+                    with box-shadow utilities.
+                  </li>
+                </ul>
+                <h5 id="opacity">Opacity</h5>
+                <ul>
+                  <li><code>.opacity-1</code> - For 10% opacity.</li>
+                  <li><code>.opacity-2</code> - For 20% opacity.</li>
+                  <li><code>.opacity-3</code> - For 30% opacity.</li>
+                  <li><code>.opacity-4</code> - For 40% opacity.</li>
+                  <li><code>.opacity-5</code> - For 50% opacity.</li>
+                  <li><code>.opacity-6</code> - For 60% opacity.</li>
+                  <li><code>.opacity-7</code> - For 70% opacity.</li>
+                  <li><code>.opacity-8</code> - For 80% opacity.</li>
+                  <li><code>.opacity-9</code> - For 90% opacity.</li>
+                </ul>
+                
+                <h5>
+                  Borders, Sizing, Spacing (margin & padding) and also much
+                  more....
+                </h5>
+                <div class="alert alert-info">
+                  You can refer for use other default bootstrap helper classes
+                  here -
+                  <a
+                    target="_blank"
+                    href="https://getbootstrap.com/docs/5.2/utilities/"
+                    >https://getbootstrap.com/docs/5.2/utilities/</a
+                  >
+                </div>
+              </div>
+            
+        
+
+            <hr class="divider" />
+
+            <!-- Source & Credits -->
+            <section id="source_credits">
+              <h2>Source & Credits</h2>
+              <h5>Fonts:</h5>
+              <ul>
+                <li>
+                  Google Fonts -
+                  <a target="_blank" href="https://fonts.google.com/"
+                    >https://fonts.google.com/</a
+                  >
+                </li>
+                <li>
+                  Icons Font-face -
+                  <a target="_blank" href="https://fontawesome.com/"
+                    >https://fontawesome.com/</a
+                  >
+                </li>
+              </ul>
+              <h5>Dependencies:</h5>
+              <ul>
+                <li>
+                  EmailJS -
+                  <a
+                    target="_blank"
+                    href="https://www.emailjs.com/docs/examples/reactjs/"
+                    >https://www.emailjs.com/docs/examples/reactjs/</a
+                  >
+                </li>
+                <li>
+                  Bootstrap 5 -
+                  <a target="_blank" href="http://getbootstrap.com/"
+                    >http://getbootstrap.com/</a
+                  >
+                </li>
+                <li>
+                  isotope-layout -
+                  <a
+                    target="_blank"
+                    href="https://www.npmjs.com/package/isotope-layout"
+                    >https://www.npmjs.com/package/isotope-layout</a
+                  >
+                </li>
+
+                <li>
+                  react-slick -
+                  <a
+                    target="_blank"
+                    href="https://www.npmjs.com/package/react-slick"
+                    >https://www.npmjs.com/package/react-slick</a
+                  >
+                </li>
+                <li>
+                  react-toastify -
+                  <a
+                    target="_blank"
+                    href="https://www.npmjs.com/package/react-toastify"
+                    >https://www.npmjs.com/package/react-toastify</a
+                  >
+                </li>
+
+                <li>
+                  typewriter-effect -
+                  <a
+                    target="_blank"
+                    href="https://www.npmjs.com/package/typewriter-effect"
+                    >https://www.npmjs.com/package/typewriter-effect</a
+                  >
+                </li><li>
+                  react-scroll -
+                  <a
+                    target="_blank"
+                    href="https://www.npmjs.com/package/react-scroll"
+                    >https://www.npmjs.com/package/react-scroll</a
+                  >
+                </li>
+              </ul>
+            </section>
+
+            <hr class="divider" />
+
+            <!-- Support -->
+            <section id="theme_support">
+              <h2>Support</h2>
+              <p>
+                If this documentation doesn't answer your questions, So, Please
+                send us Email via
+                <a
+                  class="btn btn-primary"
+                  target="_blank"
+                  href="https://themeforest.net/item/x/42757507/support"
+                  >Item Support Page</a
+                >
+              </p>
+              <p>
+                We are located in GMT +5:30 time zone and we answer all
+                questions within 12-24 hours in weekdays. In some rare cases the
+                waiting time can be to 48 hours. (except holiday seasons which
+                might take longer).
+              </p>
+              <div class="alert alert-warning mb-4">
+                <span class="badge badge-danger text-uppercase">Note:</span>
+                While we aim to provide the best support possible, please keep
+                in mind that it only extends to verified buyers and only to
+                issues related to our template like bugs and errors. Custom
+                modifications or third party module implementations are not
+                included.
+              </div>
+
+              <h4>
+                Don’t forget to Rate this template
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+              </h4>
+              <div class="alert alert-success">
+                Please Add your Review (Opinion) for Our template. It would be a
+                great support for us.<br />
+                Go to your <strong>Themeforest Profile</strong> >
+                <strong>Downloads Tab</strong> > & then You can Rate & Review
+                for our template.<br />
+                Thank You.
+              </div>
+            </section>
+
+            <hr class="divider" />
+
+            <!-- Changelog -->
+            <section id="changelog">
+              <h2>Changelog</h2>
+              <p class="alert alert-info">
+                For Future Updates Follow Us
+                <a
+                  target="_blank"
+                  href="http://themeforest.net/user/harnishdesign"
+                  >@themeforest</a
+                >
+                /
+                <a target="_blank" href="http://facebook.com/harnishdesign"
+                  >@facebook</a
+                >
+                /
+                <a target="_blank" href="http://twitter.com/harnishdesign"
+                  >@twitter</a
+                >
+                /
+                <a target="_blank" href="https://dribbble.com/harnishdesign"
+                  >@Dribbble</a
+                >
+              </p>
+              <p class="alert alert-warning mb-5">
+                The best way is to use a compare tool for update template, like
+                this one:
+                <a target="_blank" href="http://kdiff3.sourceforge.net/"
+                  >http://kdiff3.sourceforge.net/</a
+                >
+                – and use it to compare the folders (your current website and
+                the new version).
+                <strong>Updating React templates requires manual work.</strong>
+              </p>
+			  
+			  <h3>v1.1</h3>
+			  <ul class="changelog">
+            <li><span class="badge badge-danger">Fixed</span> Added missing color scss files.</li>
+          </ul>
+
+              <h3>v1.0</h3>
+              <p>Initial Release</p>
+            </section>
+          </div>
+        </div>
+      </div>
+      <!-- Content end -->
+
+      <!-- Footer
+  ============================================= -->
+      <footer class="footer section bg-dark footer-text-light">
+        <div class="container">
+          <ul
+            class="social-icons social-icons-lg social-icons-muted justify-content-center mb-3"
+          >
+            <li class="social-icons-facebook">
+              <a
+                data-toggle="tooltip"
+                href="http://www.facebook.com/harnishdesign/"
+                target="_blank"
+                title=""
+                data-original-title="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+            </li>
+            <li class="social-icons-twitter">
+              <a
+                data-toggle="tooltip"
+                href="https://twitter.com/harnishdesign/"
+                target="_blank"
+                title=""
+                data-original-title="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+            <li class="social-icons-instagram">
+              <a
+                data-toggle="tooltip"
+                href="https://instagram.com/harnishdesign/"
+                target="_blank"
+                title=""
+                data-original-title="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+            <li class="social-icons-dribbble">
+              <a
+                data-toggle="tooltip"
+                href="http://www.dribbble.com/harnishdesign/"
+                target="_blank"
+                title=""
+                data-original-title="Dribbble"
+                ><i class="fab fa-dribbble"></i
+              ></a>
+            </li>
+          </ul>
+          <p class="text-muted text-center">
+            Copyright &copy; 2023
+            <a href="http://www.harnishdesign.net/">HarnishDesign</a>. All
+            Rights Reserved.
+          </p>
+        </div>
+      </footer>
+      <!-- Footer end -->
+    </div>
+    <!-- Document Wrapper end -->
+
+    <!-- Back To Top
+============================================= -->
+    <a
+      id="back-to-top"
+      data-toggle="tooltip"
+      title="Back to Top"
+      href="javascript:void(0)"
+      ><i class="fa fa-chevron-up"></i
+    ></a>
+
+    <!-- JavaScript -->
+
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/highlight.js/highlight.min.js"></script>
+    <!-- Easing -->
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- Highlight JS -->
+    <!-- Custom Script -->
+    <script src="assets/js/theme.js"></script>
+  </body>
+</html>
